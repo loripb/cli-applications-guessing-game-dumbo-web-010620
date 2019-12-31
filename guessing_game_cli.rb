@@ -55,3 +55,4 @@ def run_guessing_game
   compare_guess(guess, number)
   end_game
 end
+pry
