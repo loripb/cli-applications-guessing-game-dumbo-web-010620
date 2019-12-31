@@ -30,7 +30,7 @@ def end_game
   puts "Goodbye!"
 end
 
-def compare_guess(number)
+def compare_guess(guess, number)
 
   if guess == number
     win
