@@ -35,10 +35,10 @@ def compare_guess(number)
 
   if guess == number
     win(number)
-  elsif guess.between?(1,6)
-    lose(number)
   elsif guess == 'exit'
     end_game
+  else
+    lose(number)
   end
 end
 
