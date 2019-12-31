@@ -1,7 +1,7 @@
 require 'pry'
 
 def get_number
-  rand(1..6)
+  rand(6) + 1
 end
 
 def get_guess
