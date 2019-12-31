@@ -40,10 +40,6 @@ def compare_guess(guess, number)
   end
 end
 
-def invalid_input
-  puts "You entered an invalid input"
-end
-
 def run_guessing_game
   welcome
   number = get_number
