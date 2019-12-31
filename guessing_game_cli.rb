@@ -49,9 +49,8 @@ def run_guessing_game
   number = get_number
   guess = get_guess.to_i
   prompt_user
-
+  binding.pry
 
   compare_guess(guess, number)
   end_game
 end
-binding.pry
