@@ -19,11 +19,11 @@ def prompt_user
 end
 
 def win(number)
-  puts "You guessed the correct number!"
+  puts "/You guessed the correct number!/"
 end
 
 def lose(number)
-  puts "Sorry! The computer guessed #{number}."
+  puts "/Sorry! The computer guessed #{number}./"
 end
 
 def end_game
