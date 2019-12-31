@@ -9,13 +9,13 @@ def get_guess
 end
 
 def welcome
-  #puts "welcome to the guessing game!"
-  #puts "I'm thinking of a number from 1-6."
-  #puts "think you can guess which one?"
+  puts "welcome to the guessing game!"
+  puts "I'm thinking of a number from 1-6."
+  puts "think you can guess which one?"
 end
 
 def prompt_user
-  #puts "Enter a number 1-6."
+  puts "Enter a number 1-6."
 end
 
 def win
