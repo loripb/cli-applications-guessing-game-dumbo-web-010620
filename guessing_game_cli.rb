@@ -27,7 +27,7 @@ def lose(number)
 end
 
 def end_game
-  #p "Goodbye!"
+  p "Goodbye!"
 end
 
 def compare_guess(guess, number)
