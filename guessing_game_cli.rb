@@ -31,7 +31,7 @@ def end_game
 end
 
 def compare_guess(guess, number)
-
+  binding.pry
   if guess == number
     win
   elsif guess == 'exit'
