@@ -18,7 +18,7 @@ def prompt_user
   #puts "Enter a number 1-6."
 end
 
-def win(number)
+def win
   puts "/You guessed the correct number!/"
 end
 
@@ -34,7 +34,7 @@ def compare_guess(number)
   guess = get_guess.to_i
 
   if guess == number
-    win(number)
+    win
   elsif guess == 'exit'
     end_game
   else
