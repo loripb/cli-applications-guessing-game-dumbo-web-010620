@@ -37,9 +37,8 @@ def compare_guess(number)
     win(number)
   elsif guess.between?(1,6)
     lose(number)
-  else
-    invalid_input
-    compare_guess(number)
+  elsif guess == 'exit'
+    end_game
   end
 end
 
