@@ -31,7 +31,6 @@ def end_game
 end
 
 def compare_guess(number)
-  guess = get_guess.to_i
 
   if guess == number
     win
@@ -49,6 +48,7 @@ end
 def run_guessing_game
   welcome
   number = get_number
+  guess = get_guess.to_i
   prompt_user
 
 
