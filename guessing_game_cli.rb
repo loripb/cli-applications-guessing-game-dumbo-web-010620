@@ -52,6 +52,6 @@ def run_guessing_game
   prompt_user
 
 
-  compare_guess(number)
+  compare_guess(guess, number)
   end_game
 end
